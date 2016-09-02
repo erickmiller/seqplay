@@ -13,9 +13,9 @@ myimageseq.04.jpg
 Simple util to view full image sequences, like:  img.000.png  img.001.png  [...]  img.300.png  
 
 Play any image sequence filetype ffplay supports. I.e. jpg png (check your build of ffplay)   
-Supports relative paths. Pass in a directory path if it only contains an image sequence.  
-Or just run `seqplay` with no args in the current directory it contains only a single sequence of images.  
-If there are multiple file types and image sequences in directory you can easily use wildcards as shown below.  
+Supports relative paths. Pass in a directory path if that folder only contains one sequence.  
+Or just run `seqplay` with no args in the current directory if it contains only a single sequence of images.  
+If there are multiple file types and image sequences in a directory you can easily use wildcards as shown below.  
 ####Usage Example (in current dir):  
 	seqplay  
 ####Usage Example (in current dir):  
