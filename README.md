@@ -32,7 +32,7 @@ ffplay from ffmpeg
 Install ffmpeg with:  
 	`sudo apt-get install ffmpeg`  
 
-**Written for bash on Linux (Ubuntu) Guessing it works in other bash enviornments but, untested.**  
+**Written for bash on Linux (Ubuntu) Guessing it works in other bash environments but, untested.**  
 
 ###Install instructions:  
 1. Clone the repo to your home directory (in a shell):  
