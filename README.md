@@ -36,8 +36,8 @@ Install ffmpeg with:
 
 ###Install instructions:  
 Clone the repo to your home directory (in a shell):  
-**$** `cd ~`  
-**$** `git clone https://github.com/erickmiller/seqplay.git`  
+`cd ~`  
+`git clone https://github.com/erickmiller/seqplay.git`  
 
 Then source `seqplay.sh` from your `.bashrc` file, ie add this line to the end of the `.bashrc` file that's in your home directory:  
 
