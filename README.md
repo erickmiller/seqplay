@@ -45,4 +45,4 @@ Install ffmpeg with:
 3. Source seqplay.sh from your .bashrc file, i.e. add this line to the end of the .bashrc you opened, then save:  
 `source ~/seqplay/seqplay.sh`  
 
-And launch a new shell to test the `seqplay` command line playback utility
+Launch a new shell to start using the `seqplay` bash command line utility to play and view image sequences.
