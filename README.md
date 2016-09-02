@@ -43,5 +43,6 @@ Install ffmpeg with:
 `gedit ~/.bashrc &`
 
 3. Source seqplay.sh from your .bashrc file, i.e. add this line to the end of the .bashrc you opened, then save:  
-`source ~/seqplay/seqplay.sh`
+`source ~/seqplay/seqplay.sh`  
 
+And launch a new shell to test the `seqplay` command line playback utility
