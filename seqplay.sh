@@ -1,13 +1,12 @@
 
-
-#####################################
 #
-# some quick image sequence playback utilities:
+# Quick simple image sequence playback utility in bash using ffplay
+#
 
 seqls() {
 	RELPATH=$(find $* -maxdepth 1 -type f | sort -n | head -1)
 	FILE=$(basename $RELPATH)
-    STARTFRAME=$(echo $FILE | grep -Eo "[0-9]+")
+	STARTFRAME=$(echo $FILE | grep -Eo "[0-9]+")
 	echo $(dirname $RELPATH)"/"${FILE%%.*}".%0"${#STARTFRAME}"d."${FILE##*.}
 }
 
