@@ -1,4 +1,3 @@
-# seqplay
 A quick and super simple image sequence playback shell utility (bash script) that uses ffplay for quick and easy play back of image sequences that are saved to disk in the standard way used widely by the animation industry:  imagename.###.ext 
 For example: 
 
