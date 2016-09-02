@@ -32,10 +32,10 @@ ffplay from ffmpeg
 Install ffmpeg with:  
 	`sudo apt-get install ffmpeg`  
 
-**Written for bash on Linux (Ubunutu) Guessing it works in other bash enviornments but, untested.**  
+**Written for bash on Linux (Ubuntu) Guessing it works in other bash enviornments but, untested.**  
 
 ###Install instructions:  
-Clone the repo, copy `seqplay.sh` to your home directory, and source seqplay.sh from your `.bashrc` file, ie add this line to the end of the `.bashrc` file that's in your home directory:  
+Clone the repo, copy `seqplay.sh` to your home directory, and source `seqplay.sh` from your `.bashrc` file, ie add this line to the end of the `.bashrc` file that's in your home directory:  
 
 `source ~/seqplay.sh`
 
