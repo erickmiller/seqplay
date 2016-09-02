@@ -4,10 +4,10 @@
 A quick and super simple image sequence playback shell utility (bash script) that uses ffplay for quick and easy play back of image sequences that are saved to disk in the standard way used widely by the animation industry:   **imagename.#.ext**  
 For example:  
 
-myimageseq.000.jpg  
-myimageseq.002.jpg  
-myimageseq.003.jpg  
-myimageseq.004.jpg  
+myimageseq.00.jpg  
+myimageseq.02.jpg  
+myimageseq.03.jpg  
+myimageseq.04.jpg  
    
 ###Description:  
 Simple util to view full image sequences, like:  img.000.png  img.001.png  [...]  img.300.png  
@@ -27,15 +27,15 @@ If there are multiple files and image sequences in directory you can use wildcar
 ####Usage Example (full or relative path):  
 	seqplay /path/to/imgseq/imgname.*.png  
 
-####Requires: 
+###Requires: 
 ffplay from ffmpeg   
 Install ffmpeg with:  
 	`sudo apt-get install ffmpeg`  
 
-**Written using bash on Linux (Ubunutu) Guessing it works in other bash enviornments but, untested.**  
+**Written for bash on Linux (Ubunutu) Guessing it works in other bash enviornments but, untested.**  
 
 ###Install instructions:  
-Clone the repo, copy seqplay.sh to your home directory, and source seqplay.sh from your .bashrc, ie add this line to the end of your .bashrc:  
+Clone the repo, copy `seqplay.sh` to your home directory, and source seqplay.sh from your `.bashrc` file, ie add this line to the end of the `.bashrc` file that's in your home directory:  
 
 `source ~/seqplay.sh`
 
