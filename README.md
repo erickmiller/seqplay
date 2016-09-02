@@ -35,11 +35,14 @@ Install ffmpeg with:
 **Written for bash on Linux (Ubuntu) Guessing it works in other bash enviornments but, untested.**  
 
 ###Install instructions:  
-Clone the repo to your home directory (in a shell):  
+1. Clone the repo to your home directory (in a shell):  
 `cd ~`  
 `git clone https://github.com/erickmiller/seqplay.git`  
 
-Then source `seqplay.sh` from your `.bashrc` file, ie add this line to the end of the `.bashrc` file that's in your home directory:  
+2. Open your .bashrc in a text editor:  
+`gedit ~/.bashrc &`
+
+3. Source `seqplay.sh` from your `.bashrc` file, i.e. add this line to the end of the `.bashrc` that you have opened:  
 
 `source ~/seqplay/seqplay.sh`
 
