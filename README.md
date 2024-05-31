@@ -16,25 +16,25 @@ Play any image sequence filetype ffplay supports. I.e. jpg png (check your build
 Supports relative paths. Pass in a directory path if that folder only contains one sequence.  
 Or just run `seqplay` with no args in the current directory if it contains only a single sequence of images.  
 If there are multiple file types and image sequences in a directory you can easily use wildcards as shown below.  
-####Usage Example (in current dir):  
+#### Usage Example (in current dir):  
 	seqplay  
-####Usage Example (in current dir):  
+#### Usage Example (in current dir):  
 	seqplay *.png  
-####Usage Example (in current dir):  
+#### Usage Example (in current dir):  
 	seqplay imgname.*.png  
-####Usage Example (directory):  
+#### Usage Example (directory):  
 	seqplay /path/to/imgseq/  
-####Usage Example (full or relative path):  
+#### Usage Example (full or relative path):  
 	seqplay /path/to/imgseq/imgname.*.png  
 
-###Requires: 
+### Requires: 
 ffplay from ffmpeg   
 Install ffmpeg with:  
 	`sudo apt-get install ffmpeg`  
 
 **Written for bash on Linux (Ubuntu) Guessing it works in other bash environments but, untested.**  
 
-###Install instructions:  
+### Install instructions:  
 1. Clone the repo to your home directory (in a shell):  
 `cd ~`  
 `git clone https://github.com/erickmiller/seqplay.git`  
